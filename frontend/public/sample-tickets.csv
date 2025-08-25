@@ -1,0 +1,411 @@
+Ticket_ID,Category,Priority,Status,Created_Date,Resolved_Date,Assigned_To,Description,Resolution_Time_Hours,Customer_Satisfaction
+INC001001,Hardware,High,Resolved,2024-01-01 08:30:00,2024-01-01 14:15:00,John Smith,Desktop computer won't boot - power supply failure,5.75,4
+INC001002,Software,Medium,Resolved,2024-01-01 09:15:00,2024-01-02 11:30:00,Sarah Johnson,Outlook crashes when opening large attachments,26.25,3
+INC001003,Network,Critical,Resolved,2024-01-01 10:45:00,2024-01-01 12:30:00,Mike Davis,Complete network outage in Building A,1.75,5
+INC001004,Access,Low,Resolved,2024-01-01 11:20:00,2024-01-03 09:45:00,Lisa Chen,Password reset for new employee,46.42,4
+INC001005,Hardware,Medium,Resolved,2024-01-01 13:10:00,2024-01-01 17:45:00,John Smith,Printer paper jam and toner replacement,4.58,4
+INC001006,Software,High,Resolved,2024-01-01 14:30:00,2024-01-01 18:20:00,Sarah Johnson,CRM database connection timeout,3.83,4
+INC001007,Network,Medium,Resolved,2024-01-01 15:45:00,2024-01-02 10:15:00,Mike Davis,VPN connection drops every 30 minutes,18.5,3
+INC001008,Access,Medium,Resolved,2024-01-01 16:20:00,2024-01-03 14:30:00,Lisa Chen,Unable to access shared drive permissions,46.17,3
+INC001009,Hardware,Low,Resolved,2024-01-02 08:15:00,2024-01-04 12:45:00,John Smith,Monitor flickering intermittently,52.5,3
+INC001010,Software,Critical,Resolved,2024-01-02 09:30:00,2024-01-02 13:15:00,Sarah Johnson,Payroll system completely down,3.75,5
+INC001011,Network,High,Resolved,2024-01-02 10:45:00,2024-01-02 16:30:00,Mike Davis,Email server performance issues,5.75,4
+INC001012,Access,High,Resolved,2024-01-02 11:15:00,2024-01-02 15:45:00,Lisa Chen,Admin account locked after failed logins,4.5,4
+INC001013,Hardware,Medium,Resolved,2024-01-02 12:30:00,2024-01-03 09:15:00,John Smith,Laptop keyboard keys not responding,20.75,3
+INC001014,Software,Low,Resolved,2024-01-02 13:45:00,2024-01-05 11:30:00,Sarah Johnson,Browser bookmarks sync issues,69.75,2
+INC001015,Network,Medium,Resolved,2024-01-02 14:20:00,2024-01-03 16:45:00,Mike Davis,WiFi signal weak in conference rooms,26.42,3
+INC001016,Access,Critical,Resolved,2024-01-02 15:30:00,2024-01-02 17:15:00,Lisa Chen,Security system access cards not working,1.75,5
+INC001017,Hardware,High,Resolved,2024-01-03 08:45:00,2024-01-03 14:20:00,John Smith,Server rack cooling fan failure,5.58,4
+INC001018,Software,Medium,Resolved,2024-01-03 09:20:00,2024-01-04 13:45:00,Sarah Johnson,Antivirus blocking legitimate software,28.42,3
+INC001019,Network,Low,Resolved,2024-01-03 10:15:00,2024-01-06 14:30:00,Mike Davis,Port configuration for new application,76.25,2
+INC001020,Access,Medium,Resolved,2024-01-03 11:30:00,2024-01-05 09:45:00,Lisa Chen,New hire account setup and training,46.25,4
+INC001021,Hardware,Critical,Resolved,2024-01-03 12:45:00,2024-01-03 16:30:00,John Smith,Main database server hardware failure,3.75,5
+INC001022,Software,High,Resolved,2024-01-03 13:15:00,2024-01-03 19:45:00,Sarah Johnson,ERP system login authentication errors,6.5,4
+INC001023,Network,Medium,Resolved,2024-01-03 14:30:00,2024-01-04 11:15:00,Mike Davis,Firewall rules blocking internal traffic,20.75,3
+INC001024,Access,Low,Resolved,2024-01-03 15:45:00,2024-01-07 10:30:00,Lisa Chen,File share permissions audit and cleanup,90.75,3
+INC001025,Hardware,Medium,Resolved,2024-01-04 08:30:00,2024-01-04 16:45:00,John Smith,Projector bulb replacement in meeting room,8.25,4
+INC001026,Software,Critical,Resolved,2024-01-04 09:15:00,2024-01-04 12:30:00,Sarah Johnson,Financial reporting system data corruption,3.25,5
+INC001027,Network,High,Resolved,2024-01-04 10:45:00,2024-01-04 17:20:00,Mike Davis,DNS server configuration causing slow browsing,6.58,4
+INC001028,Access,Medium,Resolved,2024-01-04 11:20:00,2024-01-05 15:30:00,Lisa Chen,Multi-factor authentication setup issues,28.17,3
+INC001029,Hardware,Low,Resolved,2024-01-04 12:15:00,2024-01-07 14:45:00,John Smith,USB mouse scroll wheel malfunction,74.5,2
+INC001030,Software,Medium,Resolved,2024-01-04 13:30:00,2024-01-05 10:15:00,Sarah Johnson,PDF reader crashes with large documents,20.75,3
+INC001031,Network,Medium,Resolved,2024-01-04 14:45:00,2024-01-05 12:30:00,Mike Davis,Bandwidth throttling affecting video calls,21.75,3
+INC001032,Access,High,Resolved,2024-01-04 15:20:00,2024-01-04 18:45:00,Lisa Chen,Executive assistant locked out of calendar,3.42,4
+INC001033,Hardware,Critical,Resolved,2024-01-05 08:15:00,2024-01-05 11:30:00,John Smith,UPS battery backup system failure,3.25,5
+INC001034,Software,Low,Resolved,2024-01-05 09:30:00,2024-01-08 13:15:00,Sarah Johnson,Software license activation problems,75.75,2
+INC001035,Network,High,Resolved,2024-01-05 10:45:00,2024-01-05 16:20:00,Mike Davis,Internet gateway routing table corruption,5.58,4
+INC001036,Access,Medium,Resolved,2024-01-05 11:15:00,2024-01-06 14:30:00,Lisa Chen,Department folder access request approval,27.25,3
+INC001037,Hardware,Medium,Resolved,2024-01-05 12:30:00,2024-01-06 09:45:00,John Smith,Laptop battery not charging properly,21.25,3
+INC001038,Software,Critical,Resolved,2024-01-05 13:45:00,2024-01-05 17:15:00,Sarah Johnson,Customer database backup restoration needed,3.5,5
+INC001039,Network,Medium,Resolved,2024-01-05 14:20:00,2024-01-06 11:30:00,Mike Davis,Load balancer configuration optimization,21.17,3
+INC001040,Access,Low,Resolved,2024-01-05 15:30:00,2024-01-08 10:45:00,Lisa Chen,Contractor temporary access badge creation,67.25,3
+INC001041,Hardware,High,Resolved,2024-01-06 08:45:00,2024-01-06 15:20:00,John Smith,Network switch port failure in server room,6.58,4
+INC001042,Software,Medium,Resolved,2024-01-06 09:20:00,2024-01-07 12:15:00,Sarah Johnson,Email archiving system performance issues,26.92,3
+INC001043,Network,Low,Resolved,2024-01-06 10:30:00,2024-01-09 14:45:00,Mike Davis,Guest WiFi password rotation and setup,76.25,2
+INC001044,Access,Medium,Resolved,2024-01-06 11:45:00,2024-01-07 16:30:00,Lisa Chen,Service account password expiration reset,28.75,3
+INC001045,Hardware,Medium,Resolved,2024-01-06 12:15:00,2024-01-07 08:30:00,John Smith,Barcode scanner connectivity problems,20.25,3
+INC001046,Software,High,Resolved,2024-01-06 13:30:00,2024-01-06 19:15:00,Sarah Johnson,Inventory management system sync errors,5.75,4
+INC001047,Network,Critical,Resolved,2024-01-06 14:45:00,2024-01-06 16:30:00,Mike Davis,Core switch failure causing network partition,1.75,5
+INC001048,Access,High,Resolved,2024-01-06 15:20:00,2024-01-06 18:45:00,Lisa Chen,HR system admin privileges escalation,3.42,4
+INC001049,Hardware,Low,Resolved,2024-01-07 08:30:00,2024-01-10 12:15:00,John Smith,Conference room TV remote control replacement,75.75,2
+INC001050,Software,Medium,Resolved,2024-01-07 09:15:00,2024-01-08 11:30:00,Sarah Johnson,Document management system search indexing,26.25,3
+INC001051,Network,Medium,Resolved,2024-01-07 10:45:00,2024-01-08 14:20:00,Mike Davis,VoIP phone quality issues and jitter,27.58,3
+INC001052,Access,Medium,Resolved,2024-01-07 11:20:00,2024-01-08 15:45:00,Lisa Chen,Terminated employee access revocation audit,28.42,3
+INC001053,Hardware,Critical,Resolved,2024-01-07 12:30:00,2024-01-07 15:45:00,John Smith,Backup tape drive mechanical failure,3.25,5
+INC001054,Software,Low,Resolved,2024-01-07 13:45:00,2024-01-10 09:30:00,Sarah Johnson,Mobile app push notification configuration,67.75,2
+INC001055,Network,High,Resolved,2024-01-07 14:15:00,2024-01-07 20:30:00,Mike Davis,WAN link redundancy failover testing,6.25,4
+INC001056,Access,Low,Resolved,2024-01-07 15:30:00,2024-01-10 11:45:00,Lisa Chen,Visitor badge printer ribbon replacement,68.25,2
+INC001057,Hardware,Medium,Resolved,2024-01-08 08:15:00,2024-01-08 16:45:00,John Smith,Workstation memory upgrade installation,8.5,4
+INC001058,Software,Critical,Resolved,2024-01-08 09:30:00,2024-01-08 13:15:00,Sarah Johnson,Production database transaction log full,3.75,5
+INC001059,Network,Medium,Resolved,2024-01-08 10:45:00,2024-01-09 12:30:00,Mike Davis,SSL certificate renewal for web services,25.75,3
+INC001060,Access,High,Resolved,2024-01-08 11:15:00,2024-01-08 15:30:00,Lisa Chen,Emergency after-hours building access setup,4.25,4
+INC001061,Hardware,Low,Resolved,2024-01-08 12:30:00,2024-01-11 14:15:00,John Smith,Ergonomic keyboard request and installation,73.75,3
+INC001062,Software,Medium,Resolved,2024-01-08 13:45:00,2024-01-09 10:20:00,Sarah Johnson,Backup software scheduling optimization,20.58,3
+INC001063,Network,Low,Resolved,2024-01-08 14:20:00,2024-01-11 16:45:00,Mike Davis,Network cable management and labeling,74.42,2
+INC001064,Access,Medium,Resolved,2024-01-08 15:30:00,2024-01-09 13:15:00,Lisa Chen,Shared mailbox delegation permissions,21.75,3
+INC001065,Hardware,High,Resolved,2024-01-09 08:45:00,2024-01-09 14:30:00,John Smith,RAID array disk failure and replacement,5.75,4
+INC001066,Software,Critical,Resolved,2024-01-09 09:20:00,2024-01-09 12:45:00,Sarah Johnson,Accounting system year-end processing error,3.42,5
+INC001067,Network,Medium,Resolved,2024-01-09 10:30:00,2024-01-10 15:15:00,Mike Davis,Proxy server configuration for new policies,28.75,3
+INC001068,Access,Low,Resolved,2024-01-09 11:45:00,2024-01-12 09:30:00,Lisa Chen,Intern account provisioning and orientation,69.75,2
+INC001069,Hardware,Medium,Resolved,2024-01-09 12:15:00,2024-01-10 08:45:00,John Smith,Dual monitor setup and display calibration,20.5,3
+INC001070,Software,High,Resolved,2024-01-09 13:30:00,2024-01-09 18:15:00,Sarah Johnson,Web application session timeout issues,4.75,4
+INC001071,Network,Critical,Resolved,2024-01-09 14:45:00,2024-01-09 16:20:00,Mike Davis,Fiber optic cable cut affecting connectivity,1.58,5
+INC001072,Access,Medium,Resolved,2024-01-09 15:20:00,2024-01-10 12:30:00,Lisa Chen,Role-based access control policy update,21.17,3
+INC001073,Hardware,Low,Resolved,2024-01-10 08:30:00,2024-01-13 11:45:00,John Smith,Wireless mouse battery replacement program,75.25,2
+INC001074,Software,Medium,Resolved,2024-01-10 09:15:00,2024-01-11 14:30:00,Sarah Johnson,Report generation performance optimization,29.25,3
+INC001075,Network,Medium,Resolved,2024-01-10 10:45:00,2024-01-11 13:20:00,Mike Davis,DHCP scope exhaustion and expansion,26.58,3
+INC001076,Access,High,Resolved,2024-01-10 11:20:00,2024-01-10 16:45:00,Lisa Chen,C-level executive email delegation setup,5.42,4
+INC001077,Hardware,Critical,Resolved,2024-01-10 12:30:00,2024-01-10 15:15:00,John Smith,Data center air conditioning unit failure,2.75,5
+INC001078,Software,Low,Resolved,2024-01-10 13:45:00,2024-01-13 10:30:00,Sarah Johnson,Browser compatibility issues with legacy app,68.75,2
+INC001079,Network,High,Resolved,2024-01-10 14:15:00,2024-01-10 19:45:00,Mike Davis,BGP routing protocol convergence issues,5.5,4
+INC001080,Access,Medium,Resolved,2024-01-10 15:30:00,2024-01-11 11:15:00,Lisa Chen,Vendor portal access credential management,19.75,3
+INC001081,Hardware,Medium,Resolved,2024-01-11 08:15:00,2024-01-11 17:30:00,John Smith,Label printer calibration and maintenance,9.25,4
+INC001082,Software,Critical,Resolved,2024-01-11 09:30:00,2024-01-11 13:45:00,Sarah Johnson,ERP system module integration failure,4.25,5
+INC001083,Network,Low,Resolved,2024-01-11 10:45:00,2024-01-14 15:20:00,Mike Davis,Network monitoring tool alert configuration,76.58,2
+INC001084,Access,Medium,Resolved,2024-01-11 11:15:00,2024-01-12 14:30:00,Lisa Chen,Temporary contractor badge extension request,27.25,3
+INC001085,Hardware,High,Resolved,2024-01-11 12:30:00,2024-01-11 18:15:00,John Smith,Storage array controller firmware update,5.75,4
+INC001086,Software,Medium,Resolved,2024-01-11 13:45:00,2024-01-12 09:20:00,Sarah Johnson,Database index fragmentation cleanup,19.58,3
+INC001087,Network,Medium,Resolved,2024-01-11 14:20:00,2024-01-12 16:45:00,Mike Davis,Quality of Service policy implementation,26.42,3
+INC001088,Access,Low,Resolved,2024-01-11 15:30:00,2024-01-14 12:15:00,Lisa Chen,Parking garage access card synchronization,68.75,2
+INC001089,Hardware,Low,Resolved,2024-01-12 08:45:00,2024-01-15 10:30:00,John Smith,Headset microphone static noise issues,73.75,2
+INC001090,Software,High,Resolved,2024-01-12 09:20:00,2024-01-12 15:45:00,Sarah Johnson,Customer portal login authentication bypass,6.42,4
+INC001091,Network,Critical,Resolved,2024-01-12 10:30:00,2024-01-12 12:15:00,Mike Davis,Core router memory leak causing instability,1.75,5
+INC001092,Access,Medium,Resolved,2024-01-12 11:45:00,2024-01-13 15:20:00,Lisa Chen,Department reorganization access updates,27.58,3
+INC001093,Hardware,Medium,Resolved,2024-01-12 12:15:00,2024-01-13 08:30:00,John Smith,Laptop docking station port malfunction,20.25,3
+INC001094,Software,Medium,Resolved,2024-01-12 13:30:00,2024-01-13 11:45:00,Sarah Johnson,Patch management system deployment issues,22.25,3
+INC001095,Network,High,Resolved,2024-01-12 14:45:00,2024-01-12 20:20:00,Mike Davis,Intrusion detection system false positives,5.58,4
+INC001096,Access,High,Resolved,2024-01-12 15:20:00,2024-01-12 18:30:00,Lisa Chen,Emergency lockout override for facilities,3.17,4
+INC001097,Hardware,Critical,Resolved,2024-01-13 08:30:00,2024-01-13 11:45:00,John Smith,Primary domain controller hardware failure,3.25,5
+INC001098,Software,Low,Resolved,2024-01-13 09:15:00,2024-01-16 12:30:00,Sarah Johnson,Mobile device management policy updates,75.25,2
+INC001099,Network,Medium,Resolved,2024-01-13 10:45:00,2024-01-14 13:20:00,Mike Davis,Network segmentation VLAN configuration,26.58,3
+INC001100,Access,Medium,Resolved,2024-01-13 11:20:00,2024-01-14 16:45:00,Lisa Chen,Biometric scanner enrollment and calibration,29.42,3
+INC001101,Hardware,Medium,Resolved,2024-01-13 12:30:00,2024-01-14 09:15:00,John Smith,Conference room camera focus adjustment,20.75,3
+INC001102,Software,Critical,Resolved,2024-01-13 13:45:00,2024-01-13 17:30:00,Sarah Johnson,Payroll calculation engine data corruption,3.75,5
+INC001103,Network,Low,Resolved,2024-01-13 14:15:00,2024-01-16 16:30:00,Mike Davis,Network documentation update and audit,74.25,2
+INC001104,Access,Low,Resolved,2024-01-13 15:30:00,2024-01-16 11:45:00,Lisa Chen,Cafeteria payment card system integration,68.25,2
+INC001105,Hardware,High,Resolved,2024-01-14 08:15:00,2024-01-14 14:45:00,John Smith,Backup generator fuel pump replacement,6.5,4
+INC001106,Software,Medium,Resolved,2024-01-14 09:30:00,2024-01-15 12:15:00,Sarah Johnson,Document versioning system conflict resolution,26.75,3
+INC001107,Network,Medium,Resolved,2024-01-14 10:45:00,2024-01-15 14:30:00,Mike Davis,Wireless access point firmware upgrade,27.75,3
+INC001108,Access,High,Resolved,2024-01-14 11:15:00,2024-01-14 16:30:00,Lisa Chen,Board meeting room access control setup,5.25,4
+INC001109,Hardware,Low,Resolved,2024-01-14 12:30:00,2024-01-17 15:45:00,John Smith,Ergonomic monitor arm installation request,75.25,2
+INC001110,Software,High,Resolved,2024-01-14 13:45:00,2024-01-14 19:20:00,Sarah Johnson,Business intelligence dashboard refresh errors,5.58,4
+INC001111,Network,Critical,Resolved,2024-01-14 14:20:00,2024-01-14 16:45:00,Mike Davis,Internet service provider circuit failure,2.42,5
+INC001112,Access,Medium,Resolved,2024-01-14 15:30:00,2024-01-15 13:15:00,Lisa Chen,Remote work VPN certificate distribution,21.75,3
+INC001113,Hardware,Medium,Resolved,2024-01-15 08:45:00,2024-01-15 17:20:00,John Smith,Network attached storage drive replacement,8.58,4
+INC001114,Software,Medium,Resolved,2024-01-15 09:20:00,2024-01-16 11:30:00,Sarah Johnson,Email encryption key management issues,26.17,3
+INC001115,Network,Low,Resolved,2024-01-15 10:30:00,2024-01-18 14:45:00,Mike Davis,Network performance baseline establishment,76.25,2
+INC001116,Access,Medium,Resolved,2024-01-15 11:45:00,2024-01-16 15:20:00,Lisa Chen,Guest lecturer campus access coordination,27.58,3
+INC001117,Hardware,Critical,Resolved,2024-01-15 12:15:00,2024-01-15 15:30:00,John Smith,Fire suppression system sensor malfunction,3.25,5
+INC001118,Software,Low,Resolved,2024-01-15 13:30:00,2024-01-18 10:15:00,Sarah Johnson,Legacy application compatibility testing,68.75,2
+INC001119,Network,High,Resolved,2024-01-15 14:45:00,2024-01-15 20:30:00,Mike Davis,DDoS attack mitigation and traffic filtering,5.75,4
+INC001120,Access,High,Resolved,2024-01-15 15:20:00,2024-01-15 18:45:00,Lisa Chen,Executive protection detail access clearance,3.42,4
+INC001121,Hardware,Medium,Resolved,2024-01-16 08:30:00,2024-01-16 16:15:00,John Smith,Digital signage display panel replacement,7.75,4
+INC001122,Software,Critical,Resolved,2024-01-16 09:15:00,2024-01-16 13:30:00,Sarah Johnson,Customer relationship management data loss,4.25,5
+INC001123,Network,Medium,Resolved,2024-01-16 10:45:00,2024-01-17 12:20:00,Mike Davis,Network access control policy enforcement,25.58,3
+INC001124,Access,Low,Resolved,2024-01-16 11:20:00,2024-01-19 14:30:00,Lisa Chen,Seasonal employee badge deactivation batch,75.17,2
+INC001125,Hardware,High,Resolved,2024-01-16 12:30:00,2024-01-16 18:45:00,John Smith,Uninterruptible power supply battery bank,6.25,4
+INC001126,Software,Medium,Resolved,2024-01-16 13:45:00,2024-01-17 09:30:00,Sarah Johnson,Software asset management license audit,19.75,3
+INC001127,Network,Low,Resolved,2024-01-16 14:15:00,2024-01-19 16:45:00,Mike Davis,Network topology documentation refresh,74.5,2
+INC001128,Access,Medium,Resolved,2024-01-16 15:30:00,2024-01-17 11:15:00,Lisa Chen,Merger integration access consolidation,19.75,3
+INC001129,Hardware,Low,Resolved,2024-01-17 08:15:00,2024-01-20 12:30:00,John Smith,Wireless presentation device setup,76.25,2
+INC001130,Software,High,Resolved,2024-01-17 09:30:00,2024-01-17 15:15:00,Sarah Johnson,Enterprise resource planning system lockup,5.75,4
+INC001131,Network,Critical,Resolved,2024-01-17 10:45:00,2024-01-17 12:30:00,Mike Davis,Backbone network switch cascade failure,1.75,5
+INC001132,Access,Medium,Resolved,2024-01-17 11:15:00,2024-01-18 14:45:00,Lisa Chen,Compliance audit access log generation,27.5,3
+INC001133,Hardware,Medium,Resolved,2024-01-17 12:30:00,2024-01-18 08:15:00,John Smith,Laptop thermal throttling and fan cleaning,19.75,3
+INC001134,Software,Medium,Resolved,2024-01-17 13:45:00,2024-01-18 11:20:00,Sarah Johnson,Database replication synchronization lag,21.58,3
+INC001135,Network,High,Resolved,2024-01-17 14:20:00,2024-01-17 19:45:00,Mike Davis,Network latency optimization for trading,5.42,4
+INC001136,Access,High,Resolved,2024-01-17 15:30:00,2024-01-17 18:15:00,Lisa Chen,Crisis management team emergency access,2.75,4
+INC001137,Hardware,Critical,Resolved,2024-01-18 08:45:00,2024-01-18 12:20:00,John Smith,Datacenter cooling system compressor failure,3.58,5
+INC001138,Software,Low,Resolved,2024-01-18 09:20:00,2024-01-21 13:45:00,Sarah Johnson,User interface localization string updates,76.42,2
+INC001139,Network,Medium,Resolved,2024-01-18 10:30:00,2024-01-19 15:15:00,Mike Davis,Load balancer health check configuration,28.75,3
+INC001140,Access,Medium,Resolved,2024-01-18 11:45:00,2024-01-19 12:30:00,Lisa Chen,Contractor security clearance verification,24.75,3
+INC001141,Hardware,Medium,Resolved,2024-01-18 12:15:00,2024-01-19 09:45:00,John Smith,Point of sale terminal receipt printer jam,21.5,3
+INC001142,Software,Critical,Resolved,2024-01-18 13:30:00,2024-01-18 17:15:00,Sarah Johnson,Financial consolidation system calculation error,3.75,5
+INC001143,Network,Low,Resolved,2024-01-18 14:45:00,2024-01-21 16:20:00,Mike Davis,Network capacity planning and forecasting,73.58,2
+INC001144,Access,Low,Resolved,2024-01-18 15:20:00,2024-01-21 11:30:00,Lisa Chen,Alumni association database access request,68.17,2
+INC001145,Hardware,High,Resolved,2024-01-19 08:30:00,2024-01-19 15:45:00,John Smith,Server memory module error correction,7.25,4
+INC001146,Software,Medium,Resolved,2024-01-19 09:15:00,2024-01-20 12:30:00,Sarah Johnson,Content management system workflow approval,27.25,3
+INC001147,Network,Medium,Resolved,2024-01-19 10:45:00,2024-01-20 14:20:00,Mike Davis,Virtual private network tunnel instability,27.58,3
+INC001148,Access,High,Resolved,2024-01-19 11:20:00,2024-01-19 16:45:00,Lisa Chen,Audit committee secure document access,5.42,4
+INC001149,Hardware,Low,Resolved,2024-01-19 12:30:00,2024-01-22 15:15:00,John Smith,Bluetooth keyboard connectivity intermittent,74.75,2
+INC001150,Software,High,Resolved,2024-01-19 13:45:00,2024-01-19 19:30:00,Sarah Johnson,Supply chain management system integration,5.75,4
+INC001151,Network,Critical,Resolved,2024-01-19 14:15:00,2024-01-19 16:45:00,Mike Davis,Metropolitan area network fiber cut,2.5,5
+INC001152,Access,Medium,Resolved,2024-01-19 15:30:00,2024-01-20 13:15:00,Lisa Chen,Shared service account password rotation,21.75,3
+INC001153,Hardware,Medium,Resolved,2024-01-20 08:15:00,2024-01-20 17:30:00,John Smith,Video conferencing camera auto-focus issue,9.25,4
+INC001154,Software,Medium,Resolved,2024-01-20 09:30:00,2024-01-21 11:45:00,Sarah Johnson,Automated backup verification script failure,26.25,3
+INC001155,Network,Low,Resolved,2024-01-20 10:45:00,2024-01-23 14:30:00,Mike Davis,Network device firmware vulnerability scan,75.75,2
+INC001156,Access,Medium,Resolved,2024-01-20 11:15:00,2024-01-21 15:45:00,Lisa Chen,Temporary badge printer maintenance window,28.5,3
+INC001157,Hardware,Critical,Resolved,2024-01-20 12:30:00,2024-01-20 15:45:00,John Smith,Primary file server disk array failure,3.25,5
+INC001158,Software,Low,Resolved,2024-01-20 13:45:00,2024-01-23 10:20:00,Sarah Johnson,Help desk ticketing system customization,68.58,2
+INC001159,Network,High,Resolved,2024-01-20 14:20:00,2024-01-20 19:15:00,Mike Davis,Network intrusion detection signature update,4.92,4
+INC001160,Access,High,Resolved,2024-01-20 15:30:00,2024-01-20 18:45:00,Lisa Chen,Emergency response team communication setup,3.25,4
+INC001161,Hardware,Medium,Resolved,2024-01-21 08:45:00,2024-01-21 16:20:00,John Smith,Multifunction printer scanner calibration,7.58,4
+INC001162,Software,Critical,Resolved,2024-01-21 09:20:00,2024-01-21 13:45:00,Sarah Johnson,Human resources information system outage,4.42,5
+INC001163,Network,Medium,Resolved,2024-01-21 10:30:00,2024-01-22 12:15:00,Mike Davis,Wide area network optimization configuration,25.75,3
+INC001164,Access,Low,Resolved,2024-01-21 11:45:00,2024-01-24 14:30:00,Lisa Chen,Visitor management system database cleanup,74.75,2
+INC001165,Hardware,High,Resolved,2024-01-21 12:15:00,2024-01-21 18:30:00,John Smith,Rack mounted server cooling fan replacement,6.25,4
+INC001166,Software,Medium,Resolved,2024-01-21 13:30:00,2024-01-22 09:45:00,Sarah Johnson,Project management tool integration issues,20.25,3
+INC001167,Network,Low,Resolved,2024-01-21 14:45:00,2024-01-24 16:20:00,Mike Davis,Network monitoring dashboard customization,73.58,2
+INC001168,Access,Medium,Resolved,2024-01-21 15:20:00,2024-01-22 11:30:00,Lisa Chen,Department head delegation authority update,20.17,3
+INC001169,Hardware,Low,Resolved,2024-01-22 08:30:00,2024-01-25 12:45:00,John Smith,Wireless charging pad installation request,76.25,2
+INC001170,Software,High,Resolved,2024-01-22 09:15:00,2024-01-22 15:30:00,Sarah Johnson,Customer support portal search functionality,6.25,4
+INC001171,Network,Critical,Resolved,2024-01-22 10:45:00,2024-01-22 12:20:00,Mike Davis,Internet gateway redundancy failover test,1.58,5
+INC001172,Access,Medium,Resolved,2024-01-22 11:20:00,2024-01-23 14:45:00,Lisa Chen,Cross-functional team workspace access setup,27.42,3
+INC001173,Hardware,Medium,Resolved,2024-01-22 12:30:00,2024-01-23 08:15:00,John Smith,Desktop computer graphics card driver update,19.75,3
+INC001174,Software,Medium,Resolved,2024-01-22 13:45:00,2024-01-23 11:20:00,Sarah Johnson,Enterprise search indexing performance tuning,21.58,3
+INC001175,Network,High,Resolved,2024-01-22 14:15:00,2024-01-22 19:45:00,Mike Davis,Distributed denial of service attack response,5.5,4
+INC001176,Access,High,Resolved,2024-01-22 15:30:00,2024-01-22 18:15:00,Lisa Chen,Regulatory compliance officer system access,2.75,4
+INC001177,Hardware,Critical,Resolved,2024-01-23 08:15:00,2024-01-23 11:30:00,John Smith,Environmental monitoring system sensor failure,3.25,5
+INC001178,Software,Low,Resolved,2024-01-23 09:30:00,2024-01-26 13:15:00,Sarah Johnson,Software deployment automation script update,75.75,2
+INC001179,Network,Medium,Resolved,2024-01-23 10:45:00,2024-01-24 15:20:00,Mike Davis,Network address translation rule optimization,28.58,3
+INC001180,Access,Medium,Resolved,2024-01-23 11:15:00,2024-01-24 12:30:00,Lisa Chen,Facilities management system integration test,25.25,3
+INC001181,Hardware,Medium,Resolved,2024-01-23 12:30:00,2024-01-24 09:45:00,John Smith,Interactive whiteboard touch calibration,21.25,3
+INC001182,Software,Critical,Resolved,2024-01-23 13:45:00,2024-01-23 17:20:00,Sarah Johnson,Inventory tracking system barcode scanning,3.58,5
+INC001183,Network,Low,Resolved,2024-01-23 14:20:00,2024-01-26 16:45:00,Mike Davis,Network security policy compliance audit,74.42,2
+INC001184,Access,Low,Resolved,2024-01-23 15:30:00,2024-01-26 11:15:00,Lisa Chen,Student information system grade access,67.75,2
+INC001185,Hardware,High,Resolved,2024-01-24 08:45:00,2024-01-24 15:20:00,John Smith,Blade server chassis power supply redundancy,6.58,4
+INC001186,Software,Medium,Resolved,2024-01-24 09:20:00,2024-01-25 12:45:00,Sarah Johnson,Document workflow approval routing logic,27.42,3
+INC001187,Network,Medium,Resolved,2024-01-24 10:30:00,2024-01-25 14:15:00,Mike Davis,Wireless network coverage gap analysis,27.75,3
+INC001188,Access,High,Resolved,2024-01-24 11:45:00,2024-01-24 16:30:00,Lisa Chen,Executive committee meeting room preparation,4.75,4
+INC001189,Hardware,Low,Resolved,2024-01-24 12:15:00,2024-01-27 15:45:00,John Smith,Ergonomic footrest and monitor stand request,75.5,2
+INC001190,Software,High,Resolved,2024-01-24 13:30:00,2024-01-24 19:15:00,Sarah Johnson,Financial reporting consolidation engine error,5.75,4
+INC001191,Network,Critical,Resolved,2024-01-24 14:45:00,2024-01-24 16:20:00,Mike Davis,Core network switch stack failure,1.58,5
+INC001192,Access,Medium,Resolved,2024-01-24 15:20:00,2024-01-25 13:45:00,Lisa Chen,Vendor portal credential lifecycle management,22.42,3
+INC001193,Hardware,Medium,Resolved,2024-01-25 08:30:00,2024-01-25 17:15:00,John Smith,Conference room projector lamp replacement,8.75,4
+INC001194,Software,Medium,Resolved,2024-01-25 09:15:00,2024-01-26 11:30:00,Sarah Johnson,Customer data synchronization batch job failure,26.25,3
+INC001195,Network,Low,Resolved,2024-01-25 10:45:00,2024-01-28 14:20:00,Mike Davis,Network performance monitoring baseline update,75.58,2
+INC001196,Access,Medium,Resolved,2024-01-25 11:20:00,2024-01-26 15:45:00,Lisa Chen,Remote worker equipment checkout process,28.42,3
+INC001197,Hardware,Critical,Resolved,2024-01-25 12:30:00,2024-01-25 15:15:00,John Smith,Backup power generator automatic transfer,2.75,5
+INC001198,Software,Low,Resolved,2024-01-25 13:45:00,2024-01-28 10:30:00,Sarah Johnson,User training module content management update,68.75,2
+INC001199,Network,High,Resolved,2024-01-25 14:15:00,2024-01-25 19:30:00,Mike Davis,Network packet loss investigation and resolution,5.25,4
+INC001200,Access,High,Resolved,2024-01-25 15:30:00,2024-01-25 18:45:00,Lisa Chen,Board of directors secure communication setup,3.25,4
+INC001201,Hardware,Medium,Resolved,2024-01-26 08:15:00,2024-01-26 16:45:00,John Smith,Network attached storage expansion installation,8.5,4
+INC001202,Software,Critical,Resolved,2024-01-26 09:30:00,2024-01-26 13:15:00,Sarah Johnson,Production database transaction deadlock,3.75,5
+INC001203,Network,Medium,Resolved,2024-01-26 10:45:00,2024-01-27 12:20:00,Mike Davis,Virtual local area network segmentation update,25.58,3
+INC001204,Access,Low,Resolved,2024-01-26 11:15:00,2024-01-29 14:30:00,Lisa Chen,Alumni database access permission reconciliation,75.25,2
+INC001205,Hardware,High,Resolved,2024-01-26 12:30:00,2024-01-26 18:15:00,John Smith,Redundant array disk controller replacement,5.75,4
+INC001206,Software,Medium,Resolved,2024-01-26 13:45:00,2024-01-27 09:20:00,Sarah Johnson,Enterprise application single sign-on integration,19.58,3
+INC001207,Network,Low,Resolved,2024-01-26 14:20:00,2024-01-29 16:45:00,Mike Davis,Network infrastructure documentation review,74.42,2
+INC001208,Access,Medium,Resolved,2024-01-26 15:30:00,2024-01-27 11:15:00,Lisa Chen,Temporary access badge bulk provisioning,19.75,3
+INC001209,Hardware,Low,Resolved,2024-01-27 08:45:00,2024-01-30 12:30:00,John Smith,Wireless headset pairing and configuration,75.75,2
+INC001210,Software,High,Resolved,2024-01-27 09:20:00,2024-01-27 15:45:00,Sarah Johnson,Business process automation workflow error,6.42,4
+INC001211,Network,Critical,Resolved,2024-01-27 10:30:00,2024-01-27 12:15:00,Mike Davis,Wide area network circuit provider outage,1.75,5
+INC001212,Access,Medium,Resolved,2024-01-27 11:45:00,2024-01-28 14:20:00,Lisa Chen,Compliance training system access coordination,26.58,3
+INC001213,Hardware,Medium,Resolved,2024-01-27 12:15:00,2024-01-28 08:30:00,John Smith,Digital display kiosk touch screen replacement,20.25,3
+INC001214,Software,Medium,Resolved,2024-01-27 13:30:00,2024-01-28 11:45:00,Sarah Johnson,Data warehouse extract transform load failure,22.25,3
+INC001215,Network,High,Resolved,2024-01-27 14:45:00,2024-01-27 20:20:00,Mike Davis,Network security incident response coordination,5.58,4
+INC001216,Access,High,Resolved,2024-01-27 15:20:00,2024-01-27 18:30:00,Lisa Chen,Crisis communication team emergency protocols,3.17,4
+INC001217,Hardware,Critical,Resolved,2024-01-28 08:30:00,2024-01-28 11:45:00,John Smith,Datacenter fire suppression system malfunction,3.25,5
+INC001218,Software,Low,Resolved,2024-01-28 09:15:00,2024-01-31 13:30:00,Sarah Johnson,Mobile application push notification service,76.25,2
+INC001219,Network,Medium,Resolved,2024-01-28 10:45:00,2024-01-29 15:20:00,Mike Davis,Network time protocol synchronization drift,28.58,3
+INC001220,Access,Medium,Resolved,2024-01-28 11:20:00,2024-01-29 12:45:00,Lisa Chen,Shared workspace booking system integration,25.42,3
+INC001221,Hardware,Medium,Resolved,2024-01-28 12:30:00,2024-01-29 09:15:00,John Smith,Point of sale terminal thermal printer issue,20.75,3
+INC001222,Software,Critical,Resolved,2024-01-28 13:45:00,2024-01-28 17:30:00,Sarah Johnson,Customer billing system calculation discrepancy,3.75,5
+INC001223,Network,Low,Resolved,2024-01-28 14:15:00,2024-01-31 16:45:00,Mike Davis,Network capacity utilization trending analysis,74.5,2
+INC001224,Access,Low,Resolved,2024-01-28 15:30:00,2024-01-31 11:20:00,Lisa Chen,Parking management system access synchronization,67.83,2
+INC001225,Hardware,High,Resolved,2024-01-29 08:15:00,2024-01-29 14:45:00,John Smith,Server room environmental monitoring upgrade,6.5,4
+INC001226,Software,Medium,Resolved,2024-01-29 09:30:00,2024-01-30 12:15:00,Sarah Johnson,Document management system version control,26.75,3
+INC001227,Network,Medium,Resolved,2024-01-29 10:45:00,2024-01-30 14:30:00,Mike Davis,Quality of service traffic shaping optimization,27.75,3
+INC001228,Access,High,Resolved,2024-01-29 11:15:00,2024-01-29 16:45:00,Lisa Chen,Investor relations secure document repository,5.5,4
+INC001229,Hardware,Low,Resolved,2024-01-29 12:30:00,2024-02-01 15:15:00,John Smith,Ergonomic standing desk converter installation,74.75,2
+INC001230,Software,High,Resolved,2024-01-29 13:45:00,2024-01-29 19:20:00,Sarah Johnson,Enterprise resource planning module integration,5.58,4
+INC001231,Network,Critical,Resolved,2024-01-29 14:20:00,2024-01-29 16:45:00,Mike Davis,Internet service provider routing table corruption,2.42,5
+INC001232,Access,Medium,Resolved,2024-01-29 15:30:00,2024-01-30 13:15:00,Lisa Chen,Contractor badge expiration notification system,21.75,3
+INC001233,Hardware,Medium,Resolved,2024-01-30 08:45:00,2024-01-30 17:20:00,John Smith,Video wall display panel synchronization issue,8.58,4
+INC001234,Software,Medium,Resolved,2024-01-30 09:20:00,2024-01-31 11:45:00,Sarah Johnson,Automated testing framework configuration update,26.42,3
+INC001235,Network,Low,Resolved,2024-01-30 10:30:00,2024-02-02 14:15:00,Mike Davis,Network device configuration backup automation,75.75,2
+INC001236,Access,Medium,Resolved,2024-01-30 11:45:00,2024-01-31 15:30:00,Lisa Chen,Guest speaker campus access coordination,27.75,3
+INC001237,Hardware,Critical,Resolved,2024-01-30 12:15:00,2024-01-30 15:30:00,John Smith,Primary storage array controller failure,3.25,5
+INC001238,Software,Low,Resolved,2024-01-30 13:30:00,2024-02-02 10:45:00,Sarah Johnson,User interface accessibility compliance update,69.25,2
+INC001239,Network,High,Resolved,2024-01-30 14:45:00,2024-01-30 20:15:00,Mike Davis,Network intrusion prevention system tuning,5.5,4
+INC001240,Access,High,Resolved,2024-01-30 15:20:00,2024-01-30 18:45:00,Lisa Chen,Emergency evacuation system communication test,3.42,4
+INC001241,Hardware,Medium,Resolved,2024-01-31 08:30:00,2024-01-31 16:15:00,John Smith,Conference room audio visual system calibration,7.75,4
+INC001242,Software,Critical,Resolved,2024-01-31 09:15:00,2024-01-31 13:45:00,Sarah Johnson,Supply chain visibility platform outage,4.5,5
+INC001243,Network,Medium,Resolved,2024-01-31 10:45:00,2024-02-01 12:30:00,Mike Davis,Network load balancing algorithm optimization,25.75,3
+INC001244,Access,Low,Resolved,2024-01-31 11:20:00,2024-02-03 14:45:00,Lisa Chen,Library system patron access synchronization,75.42,2
+INC001245,Hardware,High,Resolved,2024-01-31 12:30:00,2024-01-31 18:15:00,John Smith,Backup tape library robotic arm malfunction,5.75,4
+INC001246,Software,Medium,Resolved,2024-01-31 13:45:00,2024-02-01 09:30:00,Sarah Johnson,Performance monitoring dashboard customization,19.75,3
+INC001247,Network,Low,Resolved,2024-01-31 14:15:00,2024-02-03 16:30:00,Mike Davis,Network topology discovery tool configuration,74.25,2
+INC001248,Access,Medium,Resolved,2024-01-31 15:30:00,2024-02-01 11:15:00,Lisa Chen,Department merger access consolidation project,19.75,3
+INC001249,Hardware,Low,Resolved,2024-02-01 08:15:00,2024-02-04 12:45:00,John Smith,Wireless presentation remote control replacement,76.5,2
+INC001250,Software,High,Resolved,2024-02-01 09:30:00,2024-02-01 15:15:00,Sarah Johnson,Customer portal authentication bypass vulnerability,5.75,4
+INC001251,Network,Critical,Resolved,2024-02-01 10:45:00,2024-02-01 12:30:00,Mike Davis,Core network infrastructure power failure,1.75,5
+INC001252,Access,Medium,Resolved,2024-02-01 11:15:00,2024-02-02 14:45:00,Lisa Chen,Audit trail access log generation and review,27.5,3
+INC001253,Hardware,Medium,Resolved,2024-02-01 12:30:00,2024-02-02 08:15:00,John Smith,Laptop docking station USB port malfunction,19.75,3
+INC001254,Software,Medium,Resolved,2024-02-01 13:45:00,2024-02-02 11:20:00,Sarah Johnson,Enterprise search relevance ranking tuning,21.58,3
+INC001255,Network,High,Resolved,2024-02-01 14:20:00,2024-02-01 19:45:00,Mike Davis,Distributed denial of service mitigation response,5.42,4
+INC001256,Access,High,Resolved,2024-02-01 15:30:00,2024-02-01 18:15:00,Lisa Chen,Board meeting confidential document access,2.75,4
+INC001257,Hardware,Critical,Resolved,2024-02-02 08:45:00,2024-02-02 12:20:00,John Smith,Datacenter humidity control system failure,3.58,5
+INC001258,Software,Low,Resolved,2024-02-02 09:20:00,2024-02-05 13:45:00,Sarah Johnson,Legacy system integration middleware update,76.42,2
+INC001259,Network,Medium,Resolved,2024-02-02 10:30:00,2024-02-03 15:15:00,Mike Davis,Virtual private network client configuration,28.75,3
+INC001260,Access,Medium,Resolved,2024-02-02 11:45:00,2024-02-03 12:30:00,Lisa Chen,Facilities access control system maintenance,24.75,3
+INC001261,Hardware,Medium,Resolved,2024-02-02 12:15:00,2024-02-03 09:45:00,John Smith,Digital signage content management server update,21.5,3
+INC001262,Software,Critical,Resolved,2024-02-02 13:30:00,2024-02-02 17:15:00,Sarah Johnson,Payroll processing system tax calculation error,3.75,5
+INC001263,Network,Low,Resolved,2024-02-02 14:45:00,2024-02-05 16:20:00,Mike Davis,Network security vulnerability assessment scan,73.58,2
+INC001264,Access,Low,Resolved,2024-02-02 15:20:00,2024-02-05 11:30:00,Lisa Chen,Student portal grade access permission update,68.17,2
+INC001265,Hardware,High,Resolved,2024-02-03 08:30:00,2024-02-03 15:45:00,John Smith,Server memory error correction and replacement,7.25,4
+INC001266,Software,Medium,Resolved,2024-02-03 09:15:00,2024-02-04 12:30:00,Sarah Johnson,Workflow automation rule engine optimization,27.25,3
+INC001267,Network,Medium,Resolved,2024-02-03 10:45:00,2024-02-04 14:20:00,Mike Davis,Network access control authentication integration,27.58,3
+INC001268,Access,High,Resolved,2024-02-03 11:20:00,2024-02-03 16:45:00,Lisa Chen,Executive protection detail coordination access,5.42,4
+INC001269,Hardware,Low,Resolved,2024-02-03 12:30:00,2024-02-06 15:15:00,John Smith,Wireless charging station installation request,74.75,2
+INC001270,Software,High,Resolved,2024-02-03 13:45:00,2024-02-03 19:30:00,Sarah Johnson,Business intelligence data refresh automation,5.75,4
+INC001271,Network,Critical,Resolved,2024-02-03 14:15:00,2024-02-03 16:45:00,Mike Davis,Internet backbone provider circuit failure,2.5,5
+INC001272,Access,Medium,Resolved,2024-02-03 15:30:00,2024-02-04 13:15:00,Lisa Chen,Cross-departmental project access coordination,21.75,3
+INC001273,Hardware,Medium,Resolved,2024-02-04 08:15:00,2024-02-04 17:30:00,John Smith,Interactive display touch screen calibration,9.25,4
+INC001274,Software,Medium,Resolved,2024-02-04 09:30:00,2024-02-05 11:45:00,Sarah Johnson,Database performance tuning and optimization,26.25,3
+INC001275,Network,Low,Resolved,2024-02-04 10:45:00,2024-02-07 14:30:00,Mike Davis,Network monitoring alert threshold calibration,75.75,2
+INC001276,Access,Medium,Resolved,2024-02-04 11:15:00,2024-02-05 15:45:00,Lisa Chen,Vendor management system access provisioning,28.5,3
+INC001277,Hardware,Critical,Resolved,2024-02-04 12:30:00,2024-02-04 15:45:00,John Smith,Primary domain controller disk failure,3.25,5
+INC001278,Software,Low,Resolved,2024-02-04 13:45:00,2024-02-07 10:20:00,Sarah Johnson,Mobile device management policy enforcement,68.58,2
+INC001279,Network,High,Resolved,2024-02-04 14:20:00,2024-02-04 19:15:00,Mike Davis,Network packet inspection engine performance,4.92,4
+INC001280,Access,High,Resolved,2024-02-04 15:30:00,2024-02-04 18:45:00,Lisa Chen,Crisis management communication system test,3.25,4
+INC001281,Hardware,Medium,Resolved,2024-02-05 08:45:00,2024-02-05 16:20:00,John Smith,Conference room camera pan tilt zoom calibration,7.58,4
+INC001282,Software,Critical,Resolved,2024-02-05 09:20:00,2024-02-05 13:45:00,Sarah Johnson,Financial consolidation system integration failure,4.42,5
+INC001283,Network,Medium,Resolved,2024-02-05 10:30:00,2024-02-06 12:15:00,Mike Davis,Network segmentation policy enforcement update,25.75,3
+INC001284,Access,Low,Resolved,2024-02-05 11:45:00,2024-02-08 14:30:00,Lisa Chen,Alumni association event access coordination,74.75,2
+INC001285,Hardware,High,Resolved,2024-02-05 12:15:00,2024-02-05 18:30:00,John Smith,Redundant power supply unit replacement,6.25,4
+INC001286,Software,Medium,Resolved,2024-02-05 13:30:00,2024-02-06 09:45:00,Sarah Johnson,Content delivery network cache optimization,20.25,3
+INC001287,Network,Low,Resolved,2024-02-05 14:45:00,2024-02-08 16:20:00,Mike Davis,Network infrastructure lifecycle planning,73.58,2
+INC001288,Access,Medium,Resolved,2024-02-05 15:20:00,2024-02-06 11:30:00,Lisa Chen,Shared service account access review,20.17,3
+INC001289,Hardware,Low,Resolved,2024-02-06 08:30:00,2024-02-09 12:45:00,John Smith,Ergonomic monitor arm adjustment and setup,76.25,2
+INC001290,Software,High,Resolved,2024-02-06 09:15:00,2024-02-06 15:30:00,Sarah Johnson,Enterprise application performance monitoring,6.25,4
+INC001291,Network,Critical,Resolved,2024-02-06 10:45:00,2024-02-06 12:20:00,Mike Davis,Metropolitan area network fiber optic cut,1.58,5
+INC001292,Access,Medium,Resolved,2024-02-06 11:20:00,2024-02-07 14:45:00,Lisa Chen,Compliance officer system access audit,27.42,3
+INC001293,Hardware,Medium,Resolved,2024-02-06 12:30:00,2024-02-07 08:15:00,John Smith,Point of sale terminal receipt printer maintenance,19.75,3
+INC001294,Software,Medium,Resolved,2024-02-06 13:45:00,2024-02-07 11:20:00,Sarah Johnson,Data synchronization batch processing optimization,21.58,3
+INC001295,Network,High,Resolved,2024-02-06 14:15:00,2024-02-06 19:45:00,Mike Davis,Network security incident forensic analysis,5.5,4
+INC001296,Access,High,Resolved,2024-02-06 15:30:00,2024-02-06 18:15:00,Lisa Chen,Emergency response team secure communication,2.75,4
+INC001297,Hardware,Critical,Resolved,2024-02-07 08:15:00,2024-02-07 11:30:00,John Smith,Datacenter fire detection system malfunction,3.25,5
+INC001298,Software,Low,Resolved,2024-02-07 09:30:00,2024-02-10 13:15:00,Sarah Johnson,User interface responsive design optimization,75.75,2
+INC001299,Network,Medium,Resolved,2024-02-07 10:45:00,2024-02-08 15:20:00,Mike Davis,Network address translation pool expansion,28.58,3
+INC001300,Access,Medium,Resolved,2024-02-07 11:15:00,2024-02-08 12:30:00,Lisa Chen,Temporary contractor access badge coordination,25.25,3
+INC001301,Hardware,Medium,Resolved,2024-02-07 12:30:00,2024-02-08 09:45:00,John Smith,Video conferencing microphone array calibration,21.25,3
+INC001302,Software,Critical,Resolved,2024-02-07 13:45:00,2024-02-07 17:20:00,Sarah Johnson,Customer relationship management data corruption,3.58,5
+INC001303,Network,Low,Resolved,2024-02-07 14:20:00,2024-02-10 16:45:00,Mike Davis,Network performance baseline measurement update,74.42,2
+INC001304,Access,Low,Resolved,2024-02-07 15:30:00,2024-02-10 11:15:00,Lisa Chen,Library patron database access synchronization,67.75,2
+INC001305,Hardware,High,Resolved,2024-02-08 08:45:00,2024-02-08 15:20:00,John Smith,Server blade chassis cooling system upgrade,6.58,4
+INC001306,Software,Medium,Resolved,2024-02-08 09:20:00,2024-02-09 12:45:00,Sarah Johnson,Enterprise search query performance optimization,27.42,3
+INC001307,Network,Medium,Resolved,2024-02-08 10:30:00,2024-02-09 14:15:00,Mike Davis,Wireless network roaming optimization configuration,27.75,3
+INC001308,Access,High,Resolved,2024-02-08 11:45:00,2024-02-08 16:30:00,Lisa Chen,Board committee secure document repository setup,4.75,4
+INC001309,Hardware,Low,Resolved,2024-02-08 12:15:00,2024-02-11 15:45:00,John Smith,Bluetooth speaker pairing and audio calibration,75.5,2
+INC001310,Software,High,Resolved,2024-02-08 13:30:00,2024-02-08 19:15:00,Sarah Johnson,Supply chain management system integration error,5.75,4
+INC001311,Network,Critical,Resolved,2024-02-08 14:45:00,2024-02-08 16:20:00,Mike Davis,Internet service provider peering agreement,1.58,5
+INC001312,Access,Medium,Resolved,2024-02-08 15:20:00,2024-02-09 13:45:00,Lisa Chen,Multi-factor authentication token distribution,22.42,3
+INC001313,Hardware,Medium,Resolved,2024-02-09 08:30:00,2024-02-09 17:15:00,John Smith,Digital whiteboard touch response calibration,8.75,4
+INC001314,Software,Medium,Resolved,2024-02-09 09:15:00,2024-02-10 11:30:00,Sarah Johnson,Automated backup verification and reporting,26.25,3
+INC001315,Network,Low,Resolved,2024-02-09 10:45:00,2024-02-12 14:20:00,Mike Davis,Network device configuration template update,75.58,2
+INC001316,Access,Medium,Resolved,2024-02-09 11:20:00,2024-02-10 15:45:00,Lisa Chen,Guest researcher campus access coordination,28.42,3
+INC001317,Hardware,Critical,Resolved,2024-02-09 12:30:00,2024-02-09 15:15:00,John Smith,Primary storage controller battery backup,2.75,5
+INC001318,Software,Low,Resolved,2024-02-09 13:45:00,2024-02-12 10:30:00,Sarah Johnson,Help desk knowledge base article update,68.75,2
+INC001319,Network,High,Resolved,2024-02-09 14:15:00,2024-02-09 19:30:00,Mike Davis,Network intrusion detection signature deployment,5.25,4
+INC001320,Access,High,Resolved,2024-02-09 15:30:00,2024-02-09 18:45:00,Lisa Chen,Executive assistant calendar delegation setup,3.25,4
+INC001321,Hardware,Medium,Resolved,2024-02-10 08:15:00,2024-02-10 16:45:00,John Smith,Network switch port configuration and testing,8.5,4
+INC001322,Software,Critical,Resolved,2024-02-10 09:30:00,2024-02-10 13:15:00,Sarah Johnson,Human resources payroll calculation engine,3.75,5
+INC001323,Network,Medium,Resolved,2024-02-10 10:45:00,2024-02-11 12:20:00,Mike Davis,Virtual local area network trunk configuration,25.58,3
+INC001324,Access,Low,Resolved,2024-02-10 11:15:00,2024-02-13 14:30:00,Lisa Chen,Parking management system integration testing,75.25,2
+INC001325,Hardware,High,Resolved,2024-02-10 12:30:00,2024-02-10 18:15:00,John Smith,Uninterruptible power supply battery replacement,5.75,4
+INC001326,Software,Medium,Resolved,2024-02-10 13:45:00,2024-02-11 09:20:00,Sarah Johnson,Document workflow approval notification system,19.58,3
+INC001327,Network,Low,Resolved,2024-02-10 14:20:00,2024-02-13 16:45:00,Mike Davis,Network topology documentation maintenance,74.42,2
+INC001328,Access,Medium,Resolved,2024-02-10 15:30:00,2024-02-11 11:15:00,Lisa Chen,Contractor security clearance verification process,19.75,3
+INC001329,Hardware,Low,Resolved,2024-02-11 08:45:00,2024-02-14 12:30:00,John Smith,Wireless presentation device firmware update,75.75,2
+INC001330,Software,High,Resolved,2024-02-11 09:20:00,2024-02-11 15:45:00,Sarah Johnson,Enterprise resource planning data migration,6.42,4
+INC001331,Network,Critical,Resolved,2024-02-11 10:30:00,2024-02-11 12:15:00,Mike Davis,Core network infrastructure redundancy failure,1.75,5
+INC001332,Access,Medium,Resolved,2024-02-11 11:45:00,2024-02-12 14:20:00,Lisa Chen,Department access control policy update,26.58,3
+INC001333,Hardware,Medium,Resolved,2024-02-11 12:15:00,2024-02-12 08:30:00,John Smith,Conference room display panel replacement,20.25,3
+INC001334,Software,Medium,Resolved,2024-02-11 13:30:00,2024-02-12 11:45:00,Sarah Johnson,Performance monitoring dashboard enhancement,22.25,3
+INC001335,Network,High,Resolved,2024-02-11 14:45:00,2024-02-11 20:20:00,Mike Davis,Network security policy violation investigation,5.58,4
+INC001336,Access,High,Resolved,2024-02-11 15:20:00,2024-02-11 18:30:00,Lisa Chen,Crisis communication system emergency test,3.17,4
+INC001337,Hardware,Critical,Resolved,2024-02-12 08:30:00,2024-02-12 11:45:00,John Smith,Datacenter environmental monitoring system failure,3.25,5
+INC001338,Software,Low,Resolved,2024-02-12 09:15:00,2024-02-15 13:30:00,Sarah Johnson,User training portal content management update,76.25,2
+INC001339,Network,Medium,Resolved,2024-02-12 10:45:00,2024-02-13 15:20:00,Mike Davis,Network bandwidth utilization optimization,28.58,3
+INC001340,Access,Medium,Resolved,2024-02-12 11:20:00,2024-02-13 12:45:00,Lisa Chen,Shared resource booking system access update,25.42,3
+INC001341,Hardware,Medium,Resolved,2024-02-12 12:30:00,2024-02-13 09:15:00,John Smith,Interactive kiosk touch screen responsiveness,20.75,3
+INC001342,Software,Critical,Resolved,2024-02-12 13:45:00,2024-02-12 17:30:00,Sarah Johnson,Financial reporting system data integrity,3.75,5
+INC001343,Network,Low,Resolved,2024-02-12 14:15:00,2024-02-15 16:45:00,Mike Davis,Network capacity planning forecast update,74.5,2
+INC001344,Access,Low,Resolved,2024-02-12 15:30:00,2024-02-15 11:20:00,Lisa Chen,Student information system access reconciliation,67.83,2
+INC001345,Hardware,High,Resolved,2024-02-13 08:15:00,2024-02-13 14:45:00,John Smith,Server rack power distribution unit upgrade,6.5,4
+INC001346,Software,Medium,Resolved,2024-02-13 09:30:00,2024-02-14 12:15:00,Sarah Johnson,Enterprise application integration middleware,26.75,3
+INC001347,Network,Medium,Resolved,2024-02-13 10:45:00,2024-02-14 14:30:00,Mike Davis,Network access control authentication update,27.75,3
+INC001348,Access,High,Resolved,2024-02-13 11:15:00,2024-02-13 16:45:00,Lisa Chen,Investor meeting secure communication setup,5.5,4
+INC001349,Hardware,Low,Resolved,2024-02-13 12:30:00,2024-02-16 15:15:00,John Smith,Ergonomic keyboard and mouse replacement,74.75,2
+INC001350,Software,High,Resolved,2024-02-13 13:45:00,2024-02-13 19:20:00,Sarah Johnson,Customer support ticketing system integration,5.58,4
+INC001351,Network,Critical,Resolved,2024-02-13 14:20:00,2024-02-13 16:45:00,Mike Davis,Wide area network provider circuit outage,2.42,5
+INC001352,Access,Medium,Resolved,2024-02-13 15:30:00,2024-02-14 13:15:00,Lisa Chen,Temporary access badge printer maintenance,21.75,3
+INC001353,Hardware,Medium,Resolved,2024-02-14 08:45:00,2024-02-14 17:20:00,John Smith,Video wall controller synchronization update,8.58,4
+INC001354,Software,Medium,Resolved,2024-02-14 09:20:00,2024-02-15 11:45:00,Sarah Johnson,Data warehouse query optimization and tuning,26.42,3
+INC001355,Network,Low,Resolved,2024-02-14 10:30:00,2024-02-17 14:15:00,Mike Davis,Network security audit compliance verification,75.75,2
+INC001356,Access,Medium,Resolved,2024-02-14 11:45:00,2024-02-15 15:30:00,Lisa Chen,Vendor portal access credential lifecycle,27.75,3
+INC001357,Hardware,Critical,Resolved,2024-02-14 12:15:00,2024-02-14 15:30:00,John Smith,Primary backup system tape library failure,3.25,5
+INC001358,Software,Low,Resolved,2024-02-14 13:30:00,2024-02-17 10:45:00,Sarah Johnson,Mobile application user interface optimization,69.25,2
+INC001359,Network,High,Resolved,2024-02-14 14:45:00,2024-02-14 20:15:00,Mike Davis,Network packet loss root cause analysis,5.5,4
+INC001360,Access,High,Resolved,2024-02-14 15:20:00,2024-02-14 18:45:00,Lisa Chen,Emergency evacuation coordinator access setup,3.42,4
+INC001361,Hardware,Medium,Resolved,2024-02-15 08:30:00,2024-02-15 16:15:00,John Smith,Conference room audio system amplifier replacement,7.75,4
+INC001362,Software,Critical,Resolved,2024-02-15 09:15:00,2024-02-15 13:45:00,Sarah Johnson,Inventory management system stock calculation,4.5,5
+INC001363,Network,Medium,Resolved,2024-02-15 10:45:00,2024-02-16 12:30:00,Mike Davis,Network load balancing configuration optimization,25.75,3
+INC001364,Access,Low,Resolved,2024-02-15 11:20:00,2024-02-18 14:45:00,Lisa Chen,Alumni database access permission audit,75.42,2
+INC001365,Hardware,High,Resolved,2024-02-15 12:30:00,2024-02-15 18:15:00,John Smith,Storage area network switch fabric upgrade,5.75,4
+INC001366,Software,Medium,Resolved,2024-02-15 13:45:00,2024-02-16 09:30:00,Sarah Johnson,Business process automation rule configuration,19.75,3
+INC001367,Network,Low,Resolved,2024-02-15 14:15:00,2024-02-18 16:30:00,Mike Davis,Network monitoring tool alert customization,74.25,2
+INC001368,Access,Medium,Resolved,2024-02-15 15:30:00,2024-02-16 11:15:00,Lisa Chen,Cross-functional team workspace coordination,19.75,3
+INC001369,Hardware,Low,Resolved,2024-02-16 08:15:00,2024-02-19 12:45:00,John Smith,Wireless charging pad installation and testing,76.5,2
+INC001370,Software,High,Resolved,2024-02-16 09:30:00,2024-02-16 15:15:00,Sarah Johnson,Enterprise search indexing performance tuning,5.75,4
+INC001371,Network,Critical,Resolved,2024-02-16 10:45:00,2024-02-16 12:30:00,Mike Davis,Internet gateway routing protocol failure,1.75,5
+INC001372,Access,Medium,Resolved,2024-02-16 11:15:00,2024-02-17 14:45:00,Lisa Chen,Compliance training system access coordination,27.5,3
+INC001373,Hardware,Medium,Resolved,2024-02-16 12:30:00,2024-02-17 08:15:00,John Smith,Point of sale barcode scanner calibration,19.75,3
+INC001374,Software,Medium,Resolved,2024-02-16 13:45:00,2024-02-17 11:20:00,Sarah Johnson,Document management version control optimization,21.58,3
+INC001375,Network,High,Resolved,2024-02-16 14:20:00,2024-02-16 19:45:00,Mike Davis,Network intrusion prevention system update,5.42,4
+INC001376,Access,High,Resolved,2024-02-16 15:30:00,2024-02-16 18:15:00,Lisa Chen,Executive committee secure meeting preparation,2.75,4
+INC001377,Hardware,Critical,Resolved,2024-02-17 08:45:00,2024-02-17 12:20:00,John Smith,Datacenter power distribution redundancy failure,3.58,5
+INC001378,Software,Low,Resolved,2024-02-17 09:20:00,2024-02-20 13:45:00,Sarah Johnson,Legacy application modernization planning,76.42,2
+INC001379,Network,Medium,Resolved,2024-02-17 10:30:00,2024-02-18 15:15:00,Mike Davis,Network quality of service policy update,28.75,3
+INC001380,Access,Medium,Resolved,2024-02-17 11:45:00,2024-02-18 12:30:00,Lisa Chen,Guest speaker campus access badge coordination,24.75,3
+INC001381,Hardware,Medium,Resolved,2024-02-17 12:15:00,2024-02-18 09:45:00,John Smith,Digital display content management server,21.5,3
+INC001382,Software,Critical,Resolved,2024-02-17 13:30:00,2024-02-17 17:15:00,Sarah Johnson,Customer billing system payment processing,3.75,5
+INC001383,Network,Low,Resolved,2024-02-17 14:45:00,2024-02-20 16:20:00,Mike Davis,Network infrastructure lifecycle assessment,73.58,2
+INC001384,Access,Low,Resolved,2024-02-17 15:20:00,2024-02-20 11:30:00,Lisa Chen,Library patron access system synchronization,68.17,2
+INC001385,Hardware,High,Resolved,2024-02-18 08:30:00,2024-02-18 15:45:00,John Smith,Server cluster node memory upgrade,7.25,4
+INC001386,Software,Medium,Resolved,2024-02-18 09:15:00,2024-02-19 12:30:00,Sarah Johnson,Workflow automation engine performance optimization,27.25,3
+INC001387,Network,Medium,Resolved,2024-02-18 10:45:00,2024-02-19 14:20:00,Mike Davis,Network segmentation policy enforcement review,27.58,3
+INC001388,Access,High,Resolved,2024-02-18 11:20:00,2024-02-18 16:45:00,Lisa Chen,Board of directors confidential access setup,5.42,4
+INC001389,Hardware,Low,Resolved,2024-02-18 12:30:00,2024-02-21 15:15:00,John Smith,Ergonomic workstation setup and configuration,74.75,2
+INC001390,Software,High,Resolved,2024-02-18 13:45:00,2024-02-18 19:30:00,Sarah Johnson,Enterprise application single sign-on integration,5.75,4
+INC001391,Network,Critical,Resolved,2024-02-18 14:15:00,2024-02-18 16:45:00,Mike Davis,Core network switch redundancy failure,2.5,5
+INC001392,Access,Medium,Resolved,2024-02-18 15:30:00,2024-02-19 13:15:00,Lisa Chen,Contractor badge access audit and cleanup,21.75,3
+INC001393,Hardware,Medium,Resolved,2024-02-19 08:15:00,2024-02-19 17:30:00,John Smith,Interactive whiteboard projection calibration,9.25,4
+INC001394,Software,Medium,Resolved,2024-02-19 09:30:00,2024-02-20 11:45:00,Sarah Johnson,Database backup and recovery testing,26.25,3
+INC001395,Network,Low,Resolved,2024-02-19 10:45:00,2024-02-22 14:30:00,Mike Davis,Network performance monitoring baseline,75.75,2
+INC001396,Access,Medium,Resolved,2024-02-19 11:15:00,2024-02-20 15:45:00,Lisa Chen,Temporary employee access provisioning,28.5,3
+INC001397,Hardware,Critical,Resolved,2024-02-19 12:30:00,2024-02-19 15:45:00,John Smith,Primary storage controller firmware failure,3.25,5
+INC001398,Software,Low,Resolved,2024-02-19 13:45:00,2024-02-22 10:20:00,Sarah Johnson,User interface accessibility compliance update,68.58,2
+INC001399,Network,High,Resolved,2024-02-19 14:20:00,2024-02-19 19:15:00,Mike Davis,Network security incident response coordination,4.92,4
+INC001400,Access,High,Resolved,2024-02-19 15:30:00,2024-02-19 18:45:00,Lisa Chen,Emergency response team secure communication,3.25,4
+INC001401,Hardware,Medium,In Progress,2024-02-20 08:45:00,,John Smith,Conference room projector bulb replacement,0,0
+INC001402,Software,High,Open,2024-02-20 09:20:00,,Sarah Johnson,Customer portal login authentication issues,0,0
+INC001403,Network,Medium,In Progress,2024-02-20 10:30:00,,Mike Davis,WiFi access point firmware update rollout,0,0
+INC001404,Access,Low,Open,2024-02-20 11:45:00,,Lisa Chen,New hire account provisioning request,0,0
+INC001405,Hardware,Critical,In Progress,2024-02-20 12:15:00,,John Smith,Database server memory failure alert,0,0
+INC001406,Software,Medium,Open,2024-02-20 13:30:00,,Sarah Johnson,Email synchronization delays reported,0,0
+INC001407,Network,High,In Progress,2024-02-20 14:45:00,,Mike Davis,Network latency spikes affecting VoIP,0,0
+INC001408,Access,Medium,Open,2024-02-20 15:20:00,,Lisa Chen,Shared drive permissions audit required,0,0
+INC001409,Hardware,Low,Open,2024-02-20 16:30:00,,John Smith,Printer toner replacement scheduled,0,0
+INC001410,Software,Critical,In Progress,2024-02-20 17:15:00,,Sarah Johnson,Production database connection timeout,0,0
