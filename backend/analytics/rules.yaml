@@ -1,0 +1,7 @@
+rules:
+  - name: Password Reset / Unlock
+    keywords: ["password", "unlock", "locked", "reset", "sspr"]
+  - name: Status Checks
+    keywords: ["status", "check status", "where is", "eta", "update", "progress"]
+  - name: Access Provisioning (Standard)
+    keywords: ["access", "add to group", "license", "entitle", "provision"]
