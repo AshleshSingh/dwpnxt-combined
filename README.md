@@ -18,7 +18,7 @@ uvicorn main:app --reload --port 8000
 ```bash
 cd ../frontend
 cp .env.local.example .env.local
-# adjust BACKEND_URL if needed
+# in .env.local set BACKEND_URL and BLOB_READ_WRITE_TOKEN
 npm install   # or pnpm i / yarn
 npm run dev
 ```
@@ -62,7 +62,7 @@ Images will appear as:
 - Preview ports **3000** (frontend) and **8000** (backend).
 
 ### 4) Deploy
-- **Frontend**: Connect repo to **Vercel** (recommended for Next.js). Set `BACKEND_URL` in Vercel Project → Settings → Environment Variables to your backend URL.
+  - **Frontend**: Connect repo to **Vercel** (recommended for Next.js). Set `BACKEND_URL` and `BLOB_READ_WRITE_TOKEN` in Vercel Project → Settings → Environment Variables.
 - **Backend**: Deploy your GHCR image to **Render**, **Fly.io**, **Azure App Service**, **AWS App Runner**, or **GCP Cloud Run**. Expose port 8000.
 
 Tip: If you prefer GitHub-only hosting for the UI, GitHub Pages won’t run Next.js server features; use **Vercel** for best results.
