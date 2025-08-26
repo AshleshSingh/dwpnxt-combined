@@ -4,7 +4,8 @@ from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 import pandas as pd
-from analytics import tcd, xlsx_export, taxonomy, views_store, mapping, prefs, report
+from analytics import xlsx_export, taxonomy, views_store, mapping, prefs, report
+from analytics.tcd import load_rules, apply_rules, estimate_aht_minutes
 
 app = FastAPI(title="DWPNxt Backend", version="0.1.0")
 
@@ -41,8 +42,8 @@ async def analyze(file: UploadFile = File(...)):
 
     # Apply driver rules
     rules_path = os.path.join(os.path.dirname(__file__), "analytics", "rules.yaml")
-    rules = tcd.load_rules(rules_path)
-    df2, by_driver = tcd.apply_rules(df, rules)
+    rules = load_rules(rules_path)
+    df2, by_driver = apply_rules(df, rules)
 
     # KPIs per driver
     kpi = report.driver_kpis(df2).reset_index().rename(columns={"index":"Driver"})
@@ -89,7 +90,7 @@ async def export_pdf(file: UploadFile = File(...)):
     df = _load_df_from_csv(raw)
     # Reuse KPI and aht estimation
     kpi = report.driver_kpis(df).reset_index().rename(columns={"index":"Driver"})
-    aht = tcd.estimate_aht_minutes(df)
+    aht = estimate_aht_minutes(df)
     # Generate dummy ROI to satisfy function inputs if needed
     top = kpi.sort_values("Tickets", ascending=False).head(10)
     roi_df = pd.DataFrame({
