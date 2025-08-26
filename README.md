@@ -17,8 +17,8 @@ uvicorn main:app --reload --port 8000
 ### 2) Start Frontend
 ```bash
 cd ../frontend
-cp .env.local.example .env.local
-# in .env.local set BACKEND_URL and BLOB_READ_WRITE_TOKEN
+cp .env.local.example .env.local  # contains BACKEND_URL and BLOB_READ_WRITE_TOKEN placeholders
+# update .env.local with your values
 npm install   # or pnpm i / yarn
 npm run dev
 ```
