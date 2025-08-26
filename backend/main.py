@@ -1,6 +1,6 @@
 
 import io, os, json
-from fastapi import FastAPI, UploadFile, File, Form
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 import pandas as pd
@@ -20,11 +20,18 @@ app.add_middleware(
 
 def _load_df_from_csv(file_bytes: bytes) -> pd.DataFrame:
     text = file_bytes.decode("utf-8", errors="ignore")
-    try:
-        # Try comma, else semicolon
-        df = pd.read_csv(io.StringIO(text))
-    except Exception:
-        df = pd.read_csv(io.StringIO(text), sep=";")
+    df = None
+    for sep in [None, ";"]:
+        try:
+            if sep is None:
+                df = pd.read_csv(io.StringIO(text))
+            else:
+                df = pd.read_csv(io.StringIO(text), sep=sep)
+            break
+        except Exception:
+            df = None
+    if df is None:
+        raise HTTPException(status_code=400, detail="Invalid CSV")
     # Normalize column names
     df.columns = [c.strip().lower().replace(" ", "_") for c in df.columns]
     return df
@@ -38,7 +45,10 @@ def _infer_date_column(df: pd.DataFrame):
 @app.post("/api/analyze")
 async def analyze(file: UploadFile = File(...)):
     raw = await file.read()
-    df = _load_df_from_csv(raw)
+    try:
+        df = _load_df_from_csv(raw)
+    except HTTPException:
+        raise
 
     # Apply driver rules
     rules_path = os.path.join(os.path.dirname(__file__), "analytics", "rules.yaml")
@@ -79,7 +89,10 @@ async def analyze(file: UploadFile = File(...)):
 @app.post("/api/export/xlsx")
 async def export_xlsx(file: UploadFile = File(...)):
     raw = await file.read()
-    df = _load_df_from_csv(raw)
+    try:
+        df = _load_df_from_csv(raw)
+    except HTTPException:
+        raise
     xlsx_bytes = xlsx_export.build_processed_workbook(df)
     return StreamingResponse(io.BytesIO(xlsx_bytes), media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                              headers={"Content-Disposition": "attachment; filename=dwpnxt_analysis.xlsx"})
@@ -87,7 +100,10 @@ async def export_xlsx(file: UploadFile = File(...)):
 @app.post("/api/export/pdf")
 async def export_pdf(file: UploadFile = File(...)):
     raw = await file.read()
-    df = _load_df_from_csv(raw)
+    try:
+        df = _load_df_from_csv(raw)
+    except HTTPException:
+        raise
     # Reuse KPI and aht estimation
     kpi = report.driver_kpis(df).reset_index().rename(columns={"index":"Driver"})
     aht = estimate_aht_minutes(df)
