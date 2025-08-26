@@ -5,27 +5,27 @@ import { useSearchParams } from "next/navigation"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
-import { AlertCircle, BarChart3, Brain, FileText, TrendingUp } from "lucide-react"
+import { AlertCircle, AlertTriangle, BarChart3, Brain, FileText, TrendingUp } from "lucide-react"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import Link from "next/link"
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 
 interface AnalysisResult {
   summary: {
+    overallSentiment: string
     totalTickets: number
     avgResolutionTime: number
-    topCategories: Array<{ category: string; count: number }>
-    automationOpportunities: number
-  }
-  insights: {
-    patterns: string[]
-    recommendations: string[]
-    riskAreas: string[]
-  }
-  aiAnalysis: {
-    sentiment: string
+    slaBreaches: number
     keyThemes: string[]
     priorityActions: string[]
   }
+  trends: Array<{ month: string; tickets: number }>
+  categories: Array<{
+    Driver: string
+    Tickets: number
+    Median_AHT: number
+    SLA_Breach_%: number
+  }>
 }
 
 export default function AnalyzePage() {
@@ -175,7 +175,7 @@ export default function AnalyzePage() {
                   <div className="flex items-center space-x-2">
                     <BarChart3 className="h-8 w-8 text-purple-600" />
                     <div>
-                      <p className="text-2xl font-bold text-slate-900">{result.summary.topCategories.length}</p>
+                      <p className="text-2xl font-bold text-slate-900">{result.categories.length}</p>
                       <p className="text-sm text-slate-600">Categories</p>
                     </div>
                   </div>
@@ -185,77 +185,87 @@ export default function AnalyzePage() {
               <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
                 <CardContent className="pt-6">
                   <div className="flex items-center space-x-2">
-                    <Brain className="h-8 w-8 text-orange-600" />
+                    <AlertTriangle className="h-8 w-8 text-orange-600" />
                     <div>
-                      <p className="text-2xl font-bold text-slate-900">{result.summary.automationOpportunities}%</p>
-                      <p className="text-sm text-slate-600">Automation Potential</p>
+                      <p className="text-2xl font-bold text-slate-900">{result.summary.slaBreaches}</p>
+                      <p className="text-sm text-slate-600">SLA Breaches</p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
             </div>
 
-            {/* Detailed Analysis */}
+            {/* Trends and Categories */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
                 <CardHeader>
-                  <CardTitle className="text-xl font-serif">Key Insights</CardTitle>
+                  <CardTitle className="text-xl font-serif">Ticket Trends</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-2">Patterns Identified</h4>
-                    <ul className="space-y-1">
-                      {result.insights.patterns.map((pattern, index) => (
-                        <li key={index} className="text-sm text-slate-600 flex items-start">
-                          <span className="w-2 h-2 bg-emerald-500 rounded-full mt-2 mr-2 flex-shrink-0" />
-                          {pattern}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-2">Risk Areas</h4>
-                    <ul className="space-y-1">
-                      {result.insights.riskAreas.map((risk, index) => (
-                        <li key={index} className="text-sm text-slate-600 flex items-start">
-                          <span className="w-2 h-2 bg-red-500 rounded-full mt-2 mr-2 flex-shrink-0" />
-                          {risk}
-                        </li>
-                      ))}
-                    </ul>
+                <CardContent>
+                  <div className="h-[300px]">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <LineChart data={result.trends}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                        <Line type="monotone" dataKey="tickets" stroke="#10b981" strokeWidth={2} />
+                      </LineChart>
+                    </ResponsiveContainer>
                   </div>
                 </CardContent>
               </Card>
 
               <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
                 <CardHeader>
-                  <CardTitle className="text-xl font-serif">AI Recommendations</CardTitle>
+                  <CardTitle className="text-xl font-serif">Top Categories</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-2">Priority Actions</h4>
-                    <ul className="space-y-1">
-                      {result.aiAnalysis.priorityActions.map((action, index) => (
-                        <li key={index} className="text-sm text-slate-600 flex items-start">
-                          <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2 flex-shrink-0" />
-                          {action}
-                        </li>
-                      ))}
-                    </ul>
+                <CardContent>
+                  <ul className="space-y-1">
+                    {result.categories.slice(0, 5).map((cat, index) => (
+                      <li key={index} className="flex items-center justify-between text-sm text-slate-600">
+                        <span className="font-medium text-slate-900">{cat.Driver}</span>
+                        <span>{cat.Tickets}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Themes and Actions */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif">Key Themes</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex flex-wrap gap-2">
+                    {result.summary.keyThemes.map((theme, index) => (
+                      <span
+                        key={index}
+                        className="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-medium"
+                      >
+                        {theme}
+                      </span>
+                    ))}
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-2">Key Themes</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {result.aiAnalysis.keyThemes.map((theme, index) => (
-                        <span
-                          key={index}
-                          className="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-medium"
-                        >
-                          {theme}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif">Priority Actions</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-1">
+                    {result.summary.priorityActions.map((action, index) => (
+                      <li key={index} className="text-sm text-slate-600 flex items-start">
+                        <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2 flex-shrink-0" />
+                        {action}
+                      </li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             </div>
