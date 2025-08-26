@@ -3,8 +3,8 @@
   "name": "DWPNxt Combined",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "frontend",
-  "workspaceFolder": "/app",
-  "postCreateCommand": "sh -lc 'cd /app && npm install'",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "bash -lc 'cd frontend && npm install'",
   "portsAttributes": {
     "3000": { "label": "Next.js Frontend" },
     "8000": { "label": "FastAPI Backend" }
