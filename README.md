@@ -26,6 +26,8 @@ npm run dev
 Visit http://localhost:3000
 
 ## With Docker
+Install Docker and the Docker Compose plugin before running the command below.
+
 ```bash
 docker compose up --build
 ```
