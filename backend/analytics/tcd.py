@@ -34,6 +34,15 @@ def derive_drivers(df, rules):
     df["driver"] = buckets
     return df, df.groupby("driver").size().reset_index(name="tickets").sort_values("tickets", ascending=False)
 
+def apply_rules(df, rules):
+    """Apply driver rules to *df*.
+
+    This is a thin wrapper around :func:`derive_drivers` to retain backwards
+    compatibility. It returns the processed DataFrame and the grouped counts
+    exactly as :func:`derive_drivers` does.
+    """
+    return derive_drivers(df, rules)
+
 def estimate_aht_minutes(df, default=8.0):
     for candidate in ["u_aht_minutes","AHT","avg_handle_time"]:
         if candidate in df.columns:
