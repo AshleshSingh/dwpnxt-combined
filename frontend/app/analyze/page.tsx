@@ -24,7 +24,7 @@ interface AnalysisResult {
     Driver: string
     Tickets: number
     Median_AHT: number
-    SLA_Breach_%: number
+    'SLA_Breach_%': number
   }>
 }
 
