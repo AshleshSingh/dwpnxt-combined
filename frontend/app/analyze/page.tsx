@@ -63,15 +63,14 @@ export default function AnalyzePage() {
         })
       }, 500)
 
+      const fileResponse = await fetch(fileUrl)
+      const blob = await fileResponse.blob()
+      const formData = new FormData()
+      formData.append("file", blob, filename)
+
       const response = await fetch("/api/analyze", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          fileUrl,
-          filename,
-        }),
+        body: formData,
       })
 
       clearInterval(progressInterval)

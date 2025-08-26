@@ -33,7 +33,11 @@ docker compose up --build
 ```
 
 ## Endpoints
-- `POST /api/analyze` — form-data with `file`: CSV of tickets. Returns JSON (summary, trends, categories).
+- `POST /api/analyze` — form-data with `file`: CSV of tickets. Returns JSON (summary, trends, categories). Example:
+
+  ```bash
+  curl -F "file=@tickets.csv" http://localhost:3000/api/analyze
+  ```
 - `POST /api/export/xlsx` — same input, returns Excel workbook.
 - `POST /api/export/pdf` — same input, returns a one-pager PDF summary.
 
