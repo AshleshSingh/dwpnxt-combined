@@ -17,3 +17,4 @@ yake==0.4.8
 
 fastapi
 uvicorn[standard]
+python-multipart
