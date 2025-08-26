@@ -4,7 +4,6 @@
   "dockerComposeFile": "../docker-compose.yml",
   "service": "frontend",
   "workspaceFolder": "/workspace",
-  "postCreateCommand": "bash -lc 'cd frontend && npm install'",
   "portsAttributes": {
     "3000": { "label": "Next.js Frontend" },
     "8000": { "label": "FastAPI Backend" }
