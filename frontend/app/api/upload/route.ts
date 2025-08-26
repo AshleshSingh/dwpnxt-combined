@@ -46,10 +46,28 @@ export async function POST(request: NextRequest) {
 
     const fileBuffer = await file.arrayBuffer()
 
-    const blob = await put(cleanFilename, fileBuffer, {
-      access: "public",
-      token: process.env.BLOB_READ_WRITE_TOKEN,
-    })
+    const token = process.env.BLOB_READ_WRITE_TOKEN
+    if (!token) {
+      console.error("BLOB_READ_WRITE_TOKEN is not set")
+      return NextResponse.json(
+        { error: "Server misconfiguration: BLOB_READ_WRITE_TOKEN is missing" },
+        { status: 500 },
+      )
+    }
+
+    let blob
+    try {
+      blob = await put(cleanFilename, fileBuffer, {
+        access: "public",
+        token,
+      })
+    } catch (error) {
+      console.error("Blob upload failed:", error)
+      return NextResponse.json(
+        { error: "Upload failed: invalid BLOB_READ_WRITE_TOKEN" },
+        { status: 500 },
+      )
+    }
 
     console.log("[v0] File uploaded successfully:", blob.url)
 
