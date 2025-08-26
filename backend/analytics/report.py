@@ -8,13 +8,20 @@ def driver_kpis(df: pd.DataFrame) -> pd.DataFrame:
     if "driver" not in d.columns and "final_driver" in d.columns:
         d = d.rename(columns={"final_driver": "driver"})
     d["driver"] = d["driver"].astype(str).fillna("Other")
+
+    # populate optional metrics with default Series when missing
+    d["aht_min"] = d.get("aht_min", pd.Series(index=d.index, dtype=float))
+    d["sla_breached_bool"] = d.get("sla_breached_bool", pd.Series(0, index=d.index))
+    d["reopen_count_num"] = d.get("reopen_count_num", pd.Series(0, index=d.index))
+
     gp = d.groupby("driver", dropna=False)
+    reopen_flag = d["reopen_count_num"].fillna(0).gt(0)
     out = pd.DataFrame({
         "Tickets": gp.size(),
         "With_AHT": gp["aht_min"].apply(lambda s: s.notna().sum()),
         "Median_AHT": gp["aht_min"].median(),
         "SLA_Breach_%": gp["sla_breached_bool"].mean()*100,
-        "Reopen_Rate_%": gp["reopen_count_num"].fillna(0).gt(0).mean()*100
+        "Reopen_Rate_%": gp.apply(lambda s: reopen_flag.loc[s.index].mean()*100)
     }).fillna(0).reset_index()
     return out.sort_values("Tickets", ascending=False)
 
