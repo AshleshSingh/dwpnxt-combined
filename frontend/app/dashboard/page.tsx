@@ -4,23 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  ResponsiveContainer,
-  LineChart,
-  Line,
-  PieChart,
-  Pie,
-  Cell,
-  AreaChart,
-  Area,
-  Tooltip,
-  Legend,
-} from "recharts"
+import dynamic from "next/dynamic"
+import { Skeleton } from "@/components/ui/skeleton"
 import {
   TrendingUp,
   TrendingDown,
@@ -34,6 +19,24 @@ import {
   Activity,
 } from "lucide-react"
 import Link from "next/link"
+
+const ChartSkeleton = () => <Skeleton className="h-full w-full" />
+
+const ResponsiveContainer = dynamic(() => import("recharts").then((m) => m.ResponsiveContainer), { ssr: false, loading: ChartSkeleton })
+const AreaChart = dynamic(() => import("recharts").then((m) => m.AreaChart), { ssr: false, loading: ChartSkeleton })
+const Area = dynamic(() => import("recharts").then((m) => m.Area), { ssr: false })
+const CartesianGrid = dynamic(() => import("recharts").then((m) => m.CartesianGrid), { ssr: false })
+const XAxis = dynamic(() => import("recharts").then((m) => m.XAxis), { ssr: false })
+const YAxis = dynamic(() => import("recharts").then((m) => m.YAxis), { ssr: false })
+const Tooltip = dynamic(() => import("recharts").then((m) => m.Tooltip), { ssr: false })
+const Legend = dynamic(() => import("recharts").then((m) => m.Legend), { ssr: false })
+const LineChart = dynamic(() => import("recharts").then((m) => m.LineChart), { ssr: false, loading: ChartSkeleton })
+const Line = dynamic(() => import("recharts").then((m) => m.Line), { ssr: false })
+const PieChart = dynamic(() => import("recharts").then((m) => m.PieChart), { ssr: false, loading: ChartSkeleton })
+const Pie = dynamic(() => import("recharts").then((m) => m.Pie), { ssr: false })
+const Cell = dynamic(() => import("recharts").then((m) => m.Cell), { ssr: false })
+const BarChart = dynamic(() => import("recharts").then((m) => m.BarChart), { ssr: false, loading: ChartSkeleton })
+const Bar = dynamic(() => import("recharts").then((m) => m.Bar), { ssr: false })
 
 // Mock data for dashboard
 const ticketVolumeData = [
